@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Astronomía</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 p-4 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🌌 Blog de Astronomía</h1>
+      <nav class="space-x-4">
+        <a href="#articulos" class="hover:text-blue-300">Artículos</a>
+        <a href="#eventos" class="hover:text-blue-300">Eventos</a>
+        <a href="#sobre" class="hover:text-blue-300">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+    <!-- Artículos -->
+    <section id="articulos" class="lg:col-span-2 space-y-6">
+      <article class="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1447433819943-74a20887a81e?q=80&w=1200" alt="Vía Láctea" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold">Cómo observar la Vía Láctea</h2>
+          <p class="mt-2 text-gray-300">Consejos para encontrar cielos oscuros, apps útiles y mejores épocas del año.</p>
+        </div>
+      </article>
+
+      <article class="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1473929731482-5e419fcafc72?q=80&w=1200" alt="Luna" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold">Fases de la Luna</h2>
+          <p class="mt-2 text-gray-300">Calendario lunar y los mejores momentos para observar o fotografiarla.</p>
+        </div>
+      </article>
+
+      <article class="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1483347756197-71ef80e95f73?q=80&w=1200" alt="Cometa" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold">Cometas: visitantes del sistema solar</h2>
+          <p class="mt-2 text-gray-300">Qué son los cometas, cómo distinguirlos y próximos eventos visibles.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Sidebar -->
+    <aside id="eventos" class="space-y-6">
+      <div class="bg-gray-800 p-5 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Próximos eventos</h3>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li>🌠 Lluvia de meteoros — 12 Ago</li>
+          <li>🌙 Luna Nueva — 2 Sep</li>
+          <li>⭐ Conjunción Venus-Júpiter — 15 Sep</li>
+        </ul>
+      </div>
+
+      <div id="sobre" class="bg-gray-800 p-5 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Sobre el blog</h3>
+        <p class="text-sm text-gray-300">
+          Este blog comparte noticias, guías y curiosidades de astronomía 
+          para todos los que disfrutan del cielo nocturno.
+        </p>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center p-4 mt-8 text-gray-400">
+    Blog de Astronomía
+  </footer>
+
+</body>
+</html>
+
